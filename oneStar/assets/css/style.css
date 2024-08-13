@@ -1,0 +1,70 @@
+@import url(./style.css);
+
+.container {
+    width: 800px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.inputButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.addHere {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.taskBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#addHere {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.taskBlock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.controlButtons {
+    display: flex;
+    gap: 5px;
+}
+.filter {
+    margin-bottom: 20px;
+}
+.filter button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.filter button.active {
+    background-color: #007bff;
+    color: white;
+}
